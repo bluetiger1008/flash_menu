@@ -59,5 +59,15 @@ namespace Flash_Drive_Menu.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iPad {
+            get {
+                object obj = ResourceManager.GetObject("iPad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

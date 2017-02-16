@@ -5,5 +5,9 @@ namespace Flash_Drive_Menu {
         public FlashDriveMenu() {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, System.EventArgs e) {
+
+        }
     }
 }
