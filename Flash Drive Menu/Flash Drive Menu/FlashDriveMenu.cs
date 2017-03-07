@@ -239,5 +239,35 @@ namespace Flash_Drive_Menu {
             foreach (FileInfo file in source.GetFiles())
                 file.CopyTo(Path.Combine(target.FullName, file.Name), true);
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
+            // Order Video Edits Link
+            System.Diagnostics.Process.Start("https://www.georgiareporting.com/edits/ ");
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
+            // Trial Link
+            System.Diagnostics.Process.Start("https://www.georgiareporting.com/trial/");
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
+            // ipad sync app Link
+            System.Diagnostics.Process.Start("https://itunes.apple.com/us/app/depoview-for-ipad/id597142467?mt=8");
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
+            // ipad sync manual Link
+            System.Diagnostics.Process.Start(" https://www.georgiareporting.com/wordpress/wp-content/uploads/2015/05/Synch-for-iPad-User-Manual.pdf");
+        }
+
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
+            // vlc windows mac Link
+            System.Diagnostics.Process.Start("http://www.videolan.org/vlc/index.html");
+        }
+
+        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
+            // support Link
+            System.Diagnostics.Process.Start("mailto:info@GeorgiaReporting.com");
+        }
     }
 }

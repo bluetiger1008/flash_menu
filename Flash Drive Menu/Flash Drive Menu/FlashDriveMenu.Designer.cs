@@ -94,6 +94,7 @@
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel1.UseMnemonic = false;
             this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Black;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // linkLabel2
             // 
@@ -112,6 +113,7 @@
             this.linkLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel2.UseMnemonic = false;
             this.linkLabel2.VisitedLinkColor = System.Drawing.Color.Black;
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // linkLabel3
             // 
@@ -130,6 +132,7 @@
             this.linkLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel3.UseMnemonic = false;
             this.linkLabel3.VisitedLinkColor = System.Drawing.Color.Black;
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
             // linkLabel4
             // 
@@ -148,6 +151,7 @@
             this.linkLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel4.UseMnemonic = false;
             this.linkLabel4.VisitedLinkColor = System.Drawing.Color.Black;
+            this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
             // 
             // linkLabel5
             // 
@@ -166,6 +170,7 @@
             this.linkLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel5.UseMnemonic = false;
             this.linkLabel5.VisitedLinkColor = System.Drawing.Color.Black;
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
             // 
             // linkLabel6
             // 
@@ -184,6 +189,7 @@
             this.linkLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel6.UseMnemonic = false;
             this.linkLabel6.VisitedLinkColor = System.Drawing.Color.Black;
+            this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked);
             // 
             // label1
             // 
